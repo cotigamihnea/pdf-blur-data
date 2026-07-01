@@ -1,0 +1,11 @@
+venv/
+env/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+poppler/
+tesseract/
+.DS_Store
+Thumbs.db
