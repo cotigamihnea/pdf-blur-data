@@ -1,11 +1,39 @@
+# =========================
+# Mediul Virtual
+# =========================
 venv/
 env/
+
+# =========================
+# Cache Python
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Fișiere de Compilare PyInstaller
+# =========================
 build/
 dist/
 *.spec
+
+# =========================
+# Binare și Librării Externe Masive
+# =========================
 poppler/
 tesseract/
+
+# =========================
+# Arhive și Fișiere Locale
+# =========================
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Fișiere de Sistem (Windows/Mac)
+# =========================
 .DS_Store
 Thumbs.db
