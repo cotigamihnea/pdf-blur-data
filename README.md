@@ -1,4 +1,4 @@
-# PDF Data Blocker v1.0.1 🚀
+# PDF Data Blocker v1.0.1
 
 PDF Data Blocker is an enterprise-grade, 100% offline desktop application designed to automatically detect and anonymize Personally Identifiable Information (PII), handwritten signatures, and official engineering/architectural stamps from scanned PDF documents and technical blueprints.
 
@@ -6,7 +6,7 @@ By combining Natural Language Processing (NLP), Advanced Computer Vision (YOLOv8
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Dual-Engine Page Classification:** Automatically analyzes text density (via Tesseract OCR) to instantly distinguish between standard text documents and complex technical schematics/blueprints.
 - **Advanced Text Redaction (PII Engine):** Utilizes Microsoft Presidio and a fine-tuned Romanian language model (`spaCy ro_core_news_lg`) to detect and redact Names, CNPs (Romanian National Identification Numbers), Phone Numbers, Emails, and Locations.
@@ -18,7 +18,7 @@ By combining Natural Language Processing (NLP), Advanced Computer Vision (YOLOv8
 
 ---
 
-## 🛠️ System Requirements
+## System Requirements
 
 - **Operating System:** Windows 10 / 11 (64-bit)
 - **Hardware:** - Minimum: Modern Intel Core i5 / AMD Ryzen 5 CPU, 8 GB RAM
@@ -27,7 +27,7 @@ By combining Natural Language Processing (NLP), Advanced Computer Vision (YOLOv8
 
 ---
 
-## ⚙️ Development Installation
+## Development Installation
 
 If you wish to run or modify the source code locally, follow these steps:
 
@@ -50,7 +50,7 @@ If you wish to run or modify the source code locally, follow these steps:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Simply execute the main script from your virtual environment:
 ```bash
@@ -59,7 +59,7 @@ python app.py
 
 ---
 
-## 📦 Production Compilation
+## Production Compilation
 
 To bundle the entire framework, including both AI models, NLP engines, Tesseract, and Poppler into a standalone Windows directory, run the following standalone `PyInstaller` pipeline command:
 
