@@ -117,7 +117,7 @@ class DocumentRedactor:
                 
         print(f"   [Analiză] OCR: {char_count} chars | Culori CAD: {cad_colors_found} | Ștampile Brute (YOLO): {raw_stamp_count}")
         
-        # --- PAS 4: Decizia Supremă ---
+        # --- Decizia Supremă ---
         
         # 1. Plasa de Siguranță YOLO (Inovația Ta)
         if raw_stamp_count > 3:
