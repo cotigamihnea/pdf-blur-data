@@ -1,4 +1,4 @@
-# PDF Data Blocker v1.0.1
+# PDF Data Blocker
 
 PDF Data Blocker is an enterprise-grade, 100% offline desktop application designed to automatically detect and anonymize Personally Identifiable Information (PII), handwritten signatures, and official engineering/architectural stamps from scanned PDF documents and technical blueprints.
 
